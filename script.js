@@ -1,16 +1,10 @@
 'use strict';
-
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
-// BANKIST APP
-
-/////////////////////////////////////////////////
 // Data
 
 // DIFFERENT DATA! Contains movement dates, currency and locale
 
 const account1 = {
-  owner: 'Jonas Schmedtmann',
+  owner: 'Tanzeem Developer',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
   pin: 1111,
@@ -351,123 +345,3 @@ btnSort.addEventListener('click', function (e) {
   sorted = !sorted;
 });
 
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
-///LECTURES
-/*
-console.log(23 === 23.0);
-
-//Base 10 - 0 to 9.  1/10=0.1. 3/10=3.33333
-//Binary base 2 - 0 1
-console.log(0.1 + 0.2);
-console.log(0.1 + 0.2 === 0.3);
-
-//conersion
-console.log(Number('23'));
-console.log(+'23');
-
-//parsing
-console.log(Number.parseInt('30px', 10));
-console.log(Number.parseInt('e23', 10));
-
-console.log(Number.parseInt('2.5rem'));
-console.log(Number.parseFloat('2.5rem'));
-// console.log(parseFloat('2.5rem'));
-console.log(Number.isNaN(20));
-console.log(Number.isNaN(20 / 0));
-console.log(Number.isFinite(20 / 0));
-console.log(Number.isInteger(20));
-
-
-console.log(5 % 2);
-console.log((5 / 2).toFixed(2));
-console.log(8 % 3);
-console.log(8 / 3);
-console.log(6 % 2);
-console.log(6 / 2);
-
-const isEven = n => n % 2 === 0;
-console.log(isEven(8));
-console.log(isEven(3));
-
-
-labelBalance.addEventListener('click', function () {
-  [...document.querySelectorAll('.movements__row')].forEach(function (row, i) {
-    if (i % 2 === 0) row.style.backgroundColor = 'orangered';
-    if (i % 3 === 0) row.style.backgroundColor = 'blue';
-  });
-});
-
-
-console.log(2 ** 53 - 1);
-console.log(Number.MAX_SAFE_INTEGER);
-
-console.log(47737893852526267182723536272727111);
-console.log(47737893852526267182723536272727111n);
-console.log(BigInt(47737893852526267182723536272727111));
-console.log(BigInt(477378938525736));
-
-//operations
-console.log(10000n + 100000n);
-console.log(37672837872878278728888n * 198898099n);
-
-//exceptions
-console.log(20n > 15);
-console.log(20n === 20);
-console.log(typeof 20n);
-console.log(20n === '20');
-console.log(20n == '20');
-console.log(Math.sqrt(16n));
-
-console.log(huge + 'is Really big!');
-
-//divisions
-console.log(12n / 3n);
-console.log(11n / 3n);
-
-
-//create a date
-const now = new Date();
-console.log(now);
-
-console.log(new Date(account1.movementsDates[0]));
-
-//working with dates
-const future = new Date(2037, 10, 19, 15, 23);
-console.log(future);
-console.log(future.getFullYear());
-console.log(future.getMonth());
-console.log(future.getDate());
-console.log(future.getDay());
-console.log(future.getHours());
-console.log(future.getMinutes());
-console.log(future.getSeconds());
-console.log(future.toISOString());
-console.log(future.getTime());
-console.log(new Date(2142237180000));
-
-
-const future = new Date(2037, 10, 19, 15, 23);
-console.log(+future);
-
-const calcDaysPassed = (date1, date2) =>
-  Math.abs(date2 - date1) / (1000 * 60 * 60 * 24);
-
-const days = calcDaysPassed(new Date(2037, 10, 19), new Date(2037, 10, 10));
-console.log(days);
-
-
-setTimeout(
-  (ing1, ing2) => console.log(`HERE IS UR PIZZA with ${ing1} and ${ing2}🍕`),
-  3000,
-  'olives',
-  'spinach'
-);
-console.log('Waiting...');
-
-//setInterval
-setInterval(function () {
-  const now = new Date();
-  console.log(now);
-}, 3000);
-*/
