@@ -16,6 +16,9 @@ Bankist is a make-believe digital banking platform created as part of a project 
 - Transfer a value to another account
 - Get loans
 - Close (delete) account
+- logout timer
+- sorting features
+
 
 ## Login Details
 
