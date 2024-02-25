@@ -1,7 +1,7 @@
 <img src="https://github.com/tanzeem131/Bankist-App/blob/main/bankist_preview1.png" ></img>
 <img src="https://github.com/tanzeem131/Bankist-App/blob/main/bankist_preview2.png" ></img>
 
-## Bankist
+# [Bankist](https://bankistapppage.netlify.app/)
 
 Bankist is a make-believe digital banking platform created as part of a project by <a href="https://github.com/jonasschmedtmann">Jonas Schmedtmann</a>. Designed for honing skills in DOM manipulation and enhancing user interaction, Bankist mimics the features of a real online bank. Users can log in to their accounts and experience various functionalities, offering a hands-on simulation of genuine banking activities.
 
