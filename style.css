@@ -25,7 +25,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0 2rem;
 }
@@ -33,6 +33,18 @@ nav {
 .welcome {
   font-size: 1.9rem;
   font-weight: 500;
+}
+
+.information-id {
+  height: 5vh;
+}
+
+.hidden-text {
+  opacity: 0;
+}
+
+.hidden-text:hover {
+  opacity: 1;
 }
 
 .logo {
